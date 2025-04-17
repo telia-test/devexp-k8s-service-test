@@ -1,0 +1,145 @@
+name: Build and deploy k8s service
+on:
+  workflow_dispatch:
+  # push:
+  #   branches: 
+  #     - 'main'
+  #   paths-ignore:
+  #     - '.github' 
+jobs: 
+    deploy:
+      runs-on: [self-hosted, linux]
+
+      env:
+        APP_NAMESPACE: {{ appNamespace }}
+        IMAGE_NAME: {{ appName}}-custom
+
+        COMMON_BITNAMI_OCI_HELM_REPO: common-bitnami-helm-remote.jfrog.teliacompany.io
+        COMMON_DOCKERHUB_REPO: common-dockerhub-remote.jfrog.teliacompany.io
+        COMMON_GHCR_DOCKER_REPO: common-ghcr-docker-remote.jfrog.teliacompany.io
+        COMMON_K8S_GCR_DOCKER_REPO: common-k8s-gcr-docker-remote.jfrog.teliacompany.io
+        COMMON_QUAY_DOCKER_REPO: common-quay-docker-remote.jfrog.teliacompany.io
+        PROJECT_DOCKER_REPO: {{ projectDockerRepo }}
+        
+        NGINX_HELM_VER: "19.0.0"
+        
+      steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - uses: sonarsource/sonarqube-scan-action@v3
+        env:
+          SONAR_TOKEN: {% raw %}${{ secrets.SONARQUBE_SCANNER  }}{% endraw %}
+          SONAR_HOST_URL: https://sonarqube.teliacompany.net
+
+      - name: Set up kubectl
+        uses: azure/setup-kubectl@v3
+        with:
+          version: v1.27.0
+
+      - name: Set up Helm
+        uses: azure/setup-helm@v4.2.0
+
+      - name: Set K8s context
+        uses: azure/k8s-set-context@v4
+        with:
+          method: kubeconfig
+          kubeconfig: {% raw %}${{ secrets.KUBE }}{% endraw %}
+          
+      - name: git describe
+        id: git_describe
+        run: echo "version=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+
+      - name: Install Podman
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y podman 
+      
+      - name: Install Buildah
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y buildah
+
+      - name: Log in to JFrog Artifactory
+        run: |
+          echo "{% raw %}${{ secrets.ARTIFACTORY_READER_PASSWORD_T }}{% endraw %}" | \
+          buildah login --username {% raw %}${{ secrets.ARTIFACTORY_READER_USERNAME_T }}{% endraw %} \
+                        --password-stdin \
+                        "{% raw %}${{ env.COMMON_DOCKERHUB_REPO }}{% endraw %}"
+
+      - name: Build image
+        uses: telia-actions/buildah-build@main
+        id: build-image
+        with:
+          image: {% raw %}${{ env.IMAGE_NAME }}{% endraw %}
+          tags: latest
+          # tags: {% raw %}${{ steps.git_describe.outputs.version }}{% endraw %}
+          containerfiles: |
+            ./app/Containerfile
+              
+      - name: Push To artifactory 
+        id: push-to-artifactory
+        uses: redhat-actions/push-to-registry@main
+        with:
+          image: {% raw %}${{ steps.build-image.outputs.image }}{% endraw %}
+          tags: latest
+          # tags: {% raw %}${{ steps.git_describe.outputs.version }}{% endraw %}
+          registry: {% raw %}${{ env.PROJECT_DOCKER_REPO }}{% endraw %}
+          username: {% raw %}${{ secrets.ARTIFACTORY_READER_USERNAME_T }}{% endraw %}
+          password: {% raw %}${{ secrets.ARTIFACTORY_READER_PASSWORD_T }}{% endraw %}
+
+      # Namespace Setup
+      - name: Ensure namespaces exist
+        run: |
+            kubectl create namespace {% raw %}${{env.APP_NAMESPACE }}{% endraw %} --dry-run=true -o yaml | kubectl apply -f -
+            kubectl label namespace {% raw %}${{env.APP_NAMESPACE }}{% endraw %} pod-security.kubernetes.io/enforce=privileged --overwrite
+     
+      # Secrets Creation
+      - name: Create artifactory-secret Secret
+        run: |
+            kubectl create secret generic artifactory-secret \
+              --from-literal=.dockerconfigjson='{
+                "auths": {
+                  "{% raw %}${{ env.COMMON_DOCKERHUB_REPO }}{% endraw %}": {
+                    "username": "{% raw %}${{ secrets.ARTIFACTORY_READER_USERNAME }}{% endraw %}",
+                    "password": "{% raw %}${{ secrets.ARTIFACTORY_READER_PASSWORD }}{% endraw %}"
+                  },
+                  "{% raw %}${{ env.PROJECT_DOCKER_REPO }}{% endraw %}": {
+                    "username": "{% raw %}${{ secrets.ARTIFACTORY_READER_USERNAME_P}}{% endraw %}",
+                    "password": "{% raw %}${{ secrets.ARTIFACTORY_READER_PASSWORD_P }}{% endraw %}"
+                  },
+                  "{% raw %}${{ env.COMMON_GHCR_DOCKER_REPO }}{% endraw %}": {
+                    "username": "{% raw %}${{ secrets.ARTIFACTORY_READER_USERNAME }}{% endraw %}",
+                    "password": "{% raw %}${{ secrets.ARTIFACTORY_READER_PASSWORD }}{% endraw %}"
+                  },
+                  "{% raw %}${{ env.COMMON_K8S_GCR_DOCKER_REPO }}{% endraw %}": {
+                    "username": "{% raw %}${{ secrets.ARTIFACTORY_READER_USERNAME }}{% endraw %}",
+                    "password": "{% raw %}${{ secrets.ARTIFACTORY_READER_PASSWORD }}{% endraw %}"
+                  },
+                  "{% raw %}${{ env.COMMON_QUAY_DOCKER_REPO }}{% endraw %}": {
+                    "username": "{% raw %}${{ secrets.ARTIFACTORY_READER_USERNAME }}{% endraw %}",
+                    "password": "{% raw %}${{ secrets.ARTIFACTORY_READER_PASSWORD }}{% endraw %}"
+                  }
+                }
+              }' \
+              --type=kubernetes.io/dockerconfigjson \
+              --namespace {% raw %}${{env.APP_NAMESPACE }}{% endraw %} \
+              --dry-run=true -o yaml | kubectl apply -f -
+  
+
+      - name: Authenticate to Helm OCI Registry
+        run: echo "{% raw %}${{ secrets.ARTIFACTORY_READER_PASSWORD }}{% endraw %}" | helm registry login "{% raw %}${{ env.COMMON_BITNAMI_OCI_HELM_REPO }}{% endraw %}" -u "{% raw %}${{ secrets.ARTIFACTORY_READER_USERNAME }}{% endraw %}" --password-stdin
+
+      - name: Create nginx-conf ConfigMap
+        run: |
+          kubectl apply -f ./app/config.yaml -n {% raw %}${{ env.APP_NAMESPACE }}{% endraw %}
+
+      - name: Deploy k8s service
+        run: |
+          helm upgrade --install nginx "oci://{% raw %}${{ env.COMMON_BITNAMI_OCI_HELM_REPO }}{% endraw %}/bitnamicharts/nginx" --version "{% raw %}${{ env.NGINX_HELM_VER }}{% endraw %}" --wait -f ./app/values.yaml --namespace {% raw %}${{ env.APP_NAMESPACE }}{% endraw %} --create-namespace 
+  
+      - name: Deploy ingress in Kubernetes 
+        run: |
+          kubectl apply -f ./app/ingress.yaml -n {% raw %}${{ env.APP_NAMESPACE }}{% endraw %}

@@ -1,0 +1,18 @@
+apiVersion: external-secrets.io/v1beta1
+kind: ExternalSecret
+metadata:
+  name: opa-jfrog-read
+spec:
+  refreshInterval: 15s
+  secretStoreRef:
+    name: vault-backend-cluster-core-cl-lor-casf-dev-tanzu-01
+    kind: ClusterSecretStore
+  target:
+    name: opa-jfrog-read
+  data:
+    - remoteRef:
+        key: kv/jfrog.teliacompany.io/casf-docker-prod-local
+        property: cicd-prod-read-casf
+      secretKey: data
+
+

@@ -1,0 +1,41 @@
+global:
+  # imageRegistry: "common-k8s-gcr-docker-remote.jfrog.teliacompany.io"
+  # imagePullSecrets: 
+  #   - artifactory-secret
+  security:
+    allowInsecureImages: true
+replicaCount: 3
+config:
+    log-format: >-
+      { "remote_addr": "$remote_addr", "remote_user": "$remote_user", 
+      "time_local": "$time_local", "request": "$request", 
+      "status": "$status", "body_bytes_sent": "$body_bytes_sent",
+      "http_referer": "$http_referer", "http_user_agent": "$http_user_agent", 
+      "request_length": "$request_length", "request_time": "$request_time", 
+      "upstream_addr": "$upstream_addr", "upstream_response_time": "$upstream_response_time",
+      "upstream_status": "$upstream_status", "request_id": "$req_id" }
+    log-format-escaping: json
+image:
+  registry: common-dockerhub-remote.jfrog.teliacompany.io
+  repository: bitnami/nginx-ingress-controller
+  tag: 1.12.1-debian-12-r0
+  pullSecrets: 
+    - artifactory-secret
+
+defaultBackend:
+  enabled: true
+  image:
+    registry: common-dockerhub-remote.jfrog.teliacompany.io
+    repository: bitnami/nginx
+    tag: 1.27.4-debian-12-r7
+    digest: ""
+    pullSecrets: 
+      - artifactory-secret
+
+service:
+  type: LoadBalancer  
+metrics:
+  enabled: true
+
+
+  

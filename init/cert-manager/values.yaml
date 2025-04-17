@@ -1,0 +1,38 @@
+installCRDs: true
+
+global:
+  imageRegistry: common-dockerhub-remote.jfrog.teliacompany.io
+  imagePullSecrets: 
+    - name: artifactory-secret
+  security:
+    allowInsecureImages: true
+
+
+cainjector:
+  image:
+    registry: common-dockerhub-remote.jfrog.teliacompany.io
+    repository: bitnami/cainjector
+
+image:
+  registry: common-dockerhub-remote.jfrog.teliacompany.io/bitnami/cert-manager
+  repository: cert-manager
+
+# acmesolver:
+#   image:
+#     registry: common-dockerhub-remote.jfrog.teliacompany.io
+#     repository: bitnami/cert-manager-acmesolver
+
+# startupapicheck:
+#   image:
+#     registry: common-dockerhub-remote.jfrog.teliacompany.io
+#     repository: bitnami/cert-manager-ctl/
+
+webhook:
+  enabled: true
+  service:
+    type: ClusterIP
+  tls:
+    secretName: cert-manager-webhook-tls
+  image:
+    registry: common-dockerhub-remote.jfrog.teliacompany.io
+    repository: bitnami/cert-manager-webhook

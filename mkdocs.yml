@@ -1,0 +1,4 @@
+site_name: Create k8s service in Tanzu
+docs_dir: docs
+theme:
+  name: mkdocs

@@ -1,0 +1,147 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: K8S-service-deployment
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/github-actions: 'true'
+  title: Create k8s service in Tanzu
+  description: K8s service blueprint in Tanzu
+  tags:
+    - service
+    - k8s
+    - tanzu
+spec:
+  owner: marius.pempe@teliacompany.com
+  type: service
+  parameters:
+    - title: Fill in app template vars
+      required:
+        - name
+      properties:
+        name:
+          title: Name
+          type: string
+          description: Unique name of the component
+          ui:autofocus: true
+          ui:options:
+            rows: 5
+
+        repo_visibility: 
+          title: repoVisibility
+          type: string
+          description: Visibility of the created repository
+          enum: 
+            - private
+            - internal
+            - public
+          default: private
+
+        repo_admins_team:
+          title: Repo admins team
+          type: string
+          description: Repository Admins Team
+          default: casf-Hid100009299-developers
+        
+        appName:
+          title: appName
+          type: string
+          description: 'Example: application name (i.e nginx)'
+          default: nginx
+        
+        appNamespace:
+          title: appNamespace
+          type: string
+          description: 'Example: application namespace (i.e nginxns)'
+          default: nginxns
+
+        hostName:
+          title: hostName
+          type: string
+          description: 'Example: Ingress host name (i.e devexpapp1.casf.teliacompany.net)'
+          default: devexpapp1.casf.teliacompany.net
+
+        projectDockerRepo:
+          title: projectDockerRepo
+          type: string
+          description: 'Example: JFrog artifactory project repo name (i.e devexp-docker-local.jfrog.teliacompany.io)'
+          default: devexp-docker-local.jfrog.teliacompany.io
+
+        sonarProjectKey:
+          title: sonarProjectKey
+          type: string
+          description: 'SonarQube project key'
+          default: 'HID100010187-devexp-k8s-service'
+
+          
+    - title: Choose a location
+      required:
+        - repoUrl
+        - dryRun
+      properties:
+        repoUrl:
+          title: Repository Location
+          type: string
+          ui:field: RepoUrlPicker
+          ui:options:
+            allowedHosts:
+              - github.com
+            allowedOwners: 
+              - telia-test
+        dryRun:
+          title: Only perform a dry run, don't publish anything
+          type: boolean
+          default: false
+
+  steps:
+    - id: fetch-base
+      name: Fetch Base
+      action: fetch:copier
+      input:
+        url: ./
+        values:
+          projectName: ${{ parameters.name }}
+          repo: ${{ parameters.repoUrl | projectSlug }}
+          appName: ${{ parameters.appName }}
+          appNamespace: ${{ parameters.appNamespace }}
+          hostName: ${{ parameters.hostName }}
+          projectDockerRepo: ${{ parameters.projectDockerRepo }}
+          sonarProjectKey: ${{ parameters.sonarProjectKey }}
+
+
+    - id: publish
+      if: ${{ parameters.dryRun !== true }}
+      name: Publish
+      action: publish:github
+      input:
+        allowedHosts:
+          - github.com
+        allowedOwners: 
+          - telia-test
+        description: This is ${{ parameters.name }}
+        repoUrl: ${{ parameters.repoUrl }}
+        protectDefaultBranch: true
+        deleteBranchOnMerge: true
+        requireCodeOwnerReviews: true
+        requiredApprovingReviewCount: 1
+        repoVisibility: ${{ parameters.repo_visibility }} 
+        collaborators:
+          - access: admin
+            team: ${{ parameters.repo_admins_team }}
+
+    - id: register
+      if: ${{ parameters.dryRun !== true }}
+      name: Register
+      action: catalog:register
+      input:
+        repoContentsUrl: ${{ steps.publish.output.repoContentsUrl }}
+        catalogInfoPath: '/catalog-info.yaml'
+
+
+  output:
+    links:
+      - title: Repository
+        url: ${{ steps.publish.output.remoteUrl }}
+      - title: Open in catalog
+        icon: catalog
+        entityRef: ${{ steps.register.output.entityRef }}

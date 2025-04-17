@@ -1,0 +1,1625 @@
+<mxfile host="65bd71144e">
+    <diagram id="-tAJh8KWAdkq9oA-KBi3" name="Page-1">
+        <mxGraphModel dx="3009" dy="-3207" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <UserObject label="DevSecOps Tools" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-DevSecOpsTools" id="5">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;align=center;spacingTop=0;spacingLeft=40;fontSize=12;fontStyle=4;fontColor=#330033;labelBorderColor=none;swimlaneLine=1;rounded=0;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-1440" y="3520" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="15" value="" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;gradientDirection=north;fillColor=#e1d5e7;strokeColor=#330033;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.devops_guru;" vertex="1" parent="5">
+                    <mxGeometry x="20" y="10" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-GitHub" id="441">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="5">
+                        <mxGeometry x="15" y="90" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="442" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;" vertex="1" parent="441">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="443" value="Github" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;" vertex="1" parent="442">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="444" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="442">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-JFrogArtifactory" id="471">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="5">
+                        <mxGeometry x="15" y="111" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="472" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="471">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="473" value="JFrog Artifactory" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;strokeColor=#82b366;" vertex="1" parent="472">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="474" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="472">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-SonarQube" id="475">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="5">
+                        <mxGeometry x="15" y="132" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="476" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="475">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="477" value="Sonarqube" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;strokeColor=#82b366;" vertex="1" parent="476">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="478" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="476">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Compute" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-ComputePlatform" id="55">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;swimlaneFillColor=none;spacingLeft=40;fontStyle=4;fontColor=#330033;fontSize=12;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-1140" y="3520" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="87" value="" style="outlineConnect=0;strokeColor=#330033;fillColor=#e1d5e7;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.registry;rounded=0;shadow=0;glass=0;" vertex="1" parent="55">
+                    <mxGeometry x="20" y="10" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-VMwareTanzu" id="510">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="55">
+                        <mxGeometry x="15" y="90" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="511" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;" vertex="1" parent="510">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="512" value="Tanzu kubernetes service" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;" vertex="1" parent="511">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="513" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="511">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-TeliaContainerServices" id="514">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="55">
+                        <mxGeometry x="15" y="111" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="515" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="514">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="516" value="Telia container service (exemption)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="515">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="517" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="515">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-VMwareAriaautomation" id="518">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="55">
+                        <mxGeometry x="15" y="132" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="519" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="518">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="520" value="VMWare VM" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="519">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="521" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="519">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-PhysicalServers" id="522">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="55">
+                        <mxGeometry x="15" y="153" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="523" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="522">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="524" value="Physical servers" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="523">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="525" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="523">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="526" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="55">
+                    <mxGeometry x="15" y="174" width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="527" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="526">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="528" value="Azure Kubernetes service" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="527">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="529" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="527">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="530" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="55">
+                    <mxGeometry x="15" y="195" width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="531" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="530">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="532" value="Amazon Elastic Kubernetes Service" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="531">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="533" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="531">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="534" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="55">
+                    <mxGeometry x="15" y="216" width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="535" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="534">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="536" value="Google Kubernetes Engine (GKE)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="535">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="537" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="535">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="542" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="55">
+                    <mxGeometry x="15" y="258" width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="543" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="542">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="544" value="Amazon Elastic Compute Cloud (EC2)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="543">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="545" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="543">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="538" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="55">
+                    <mxGeometry x="15" y="237" width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="539" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="538">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="540" value="Azure Virtual machine" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="539">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="541" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="539">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="1037" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="55">
+                    <mxGeometry x="15" y="279" width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="1038" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="1037">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="1039" value="Google Compute Engine" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="1038">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="1040" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="1038">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="Security and Governance" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-SecurityandGovernance" id="70">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;spacingLeft=50;fontSize=12;fontStyle=4;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-540" y="3860" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-CMDB" id="831">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="70">
+                        <mxGeometry x="15" y="90" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="832" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;" vertex="1" parent="831">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="833" value="CMDB" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;" vertex="1" parent="832">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="834" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="832">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-SDAV" id="835">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="70">
+                        <mxGeometry x="15" y="111" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="836" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="835">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="837" value="SDAV" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="836">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="838" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="836">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-DPIA" id="839">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="70">
+                        <mxGeometry x="15" y="132" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="840" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="839">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="841" value="DPIA" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="840">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="842" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="840">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-DRP" id="843">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="70">
+                        <mxGeometry x="15" y="153" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="844" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="843">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="845" value="DRP" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="844">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="846" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="844">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-GRC" id="847">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="70">
+                        <mxGeometry x="15" y="174" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="848" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="847">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="849" value="GRC" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="848">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="850" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="848">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-SecurityGroupInstructions" id="851">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="70">
+                        <mxGeometry x="15" y="195" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="852" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="851">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="853" value="Security Group Instructions" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="852">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="854" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="852">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="919" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.checklist_security;fillColor=#e1d5e7;rounded=0;shadow=0;glass=0;labelBorderColor=none;fillStyle=solid;strokeColor=#330033;strokeWidth=0.5;fontSize=11;aspect=fixed;" vertex="1" parent="70">
+                    <mxGeometry x="20" y="10" width="40" height="51.08" as="geometry"/>
+                </mxCell>
+                <UserObject label="Observability and Monitoring" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-ObservabilityandMonitoring" id="142">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;spacingLeft=50;fontSize=12;fontStyle=4;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-540" y="3520" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/pages/viewpage.action?pageId=1006637679#EngineeringJourney-GrafanaDaaS" id="665">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="142">
+                        <mxGeometry x="15" y="90" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="666" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;" vertex="1" parent="665">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <UserObject label="DaaS" id="667">
+                    <mxCell style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;" vertex="1" parent="666">
+                        <mxGeometry width="240" height="19" as="geometry">
+                            <mxRectangle width="120" height="19" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="668" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="666">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/pages/viewpage.action?pageId=1006637679#EngineeringJourney-Datadog" id="669">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="142">
+                        <mxGeometry x="15" y="111" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="670" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="669">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <UserObject label="Datadog" id="671">
+                    <mxCell style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="670">
+                        <mxGeometry width="240" height="19" as="geometry">
+                            <mxRectangle width="120" height="19" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="672" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="670">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/pages/viewpage.action?pageId=1006637679#EngineeringJourney-Splunk" id="673">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="142">
+                        <mxGeometry x="15" y="132" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="674" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="673">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <UserObject label="Splunk" id="675">
+                    <mxCell style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="674">
+                        <mxGeometry width="240" height="19" as="geometry">
+                            <mxRectangle width="120" height="19" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="676" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="674">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/pages/viewpage.action?pageId=1006637679#EngineeringJourney-BHOM" id="677">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="142">
+                        <mxGeometry x="15" y="153" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="678" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="677">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="679" value="BHOM" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="678">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="680" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="678">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/pages/viewpage.action?pageId=1006637679#EngineeringJourney-RiskGuard" id="681">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="142">
+                        <mxGeometry x="15" y="174" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="682" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="681">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="683" value="RiskGuard" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="682">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="684" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="682">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/pages/viewpage.action?pageId=1006637679#EngineeringJourney-DevSecOpsInsights" id="685">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="142">
+                        <mxGeometry x="15" y="195" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="686" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="685">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="687" value="DevSecOps Insights" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="686">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="688" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="686">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="907" value="" style="points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=threat_intelligence;fillColor=#e1d5e7;strokeColor=#330033;rounded=0;shadow=0;glass=0;labelBorderColor=none;fillStyle=solid;strokeWidth=0.5;fontSize=11;fontColor=none;labelBackgroundColor=none;noLabel=1;" vertex="1" parent="142">
+                    <mxGeometry x="20" y="10" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="Network" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Networking" id="163">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;align=center;spacingLeft=50;fontSize=12;fontStyle=4;labelBackgroundColor=none;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-840" y="3520" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Loadbalancer" id="571">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="163">
+                        <mxGeometry x="15" y="90" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="572" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;" vertex="1" parent="571">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="573" value="Load Balancer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;" vertex="1" parent="572">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="574" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="572">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-DNS" id="575">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="163">
+                        <mxGeometry x="15" y="111" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="576" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="575">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="577" value="DNS" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;strokeColor=#82b366;" vertex="1" parent="576">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="578" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="576">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/pages/viewpage.action?pageId=1006637679#EngineeringJourney-CloudconnectivityservicewithOnPrem" id="579">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="163">
+                        <mxGeometry x="15" y="132" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="580" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="579">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="581" value="Direct Connect" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="580">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="582" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="580">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="583" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="163">
+                    <mxGeometry x="15" y="153" width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="584" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="583">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="585" value="Express Route" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="584">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="586" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="584">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="587" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="163">
+                    <mxGeometry x="15" y="174" width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="588" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="587">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="589" value="Google Interconnect" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="588">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="590" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="588">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Firewalls" id="591">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="163">
+                        <mxGeometry x="15" y="195" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="592" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="591">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <UserObject label="Firewall" id="593">
+                    <mxCell style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="592">
+                        <mxGeometry width="240" height="19" as="geometry">
+                            <mxRectangle width="120" height="19" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="594" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="592">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Proxy" id="595">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="163">
+                        <mxGeometry x="15" y="216" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="596" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="595">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="597" value="Proxy" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="596">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="598" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="596">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-CertificateManagement" id="599">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="163">
+                        <mxGeometry x="15" y="237" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="600" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="599">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="601" value="Certificate Management" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="600">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="602" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="600">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="896" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#330033;fillColor=#e1d5e7;shape=mxgraph.azure.website_generic;pointerEvents=1;rounded=0;shadow=0;glass=0;labelBorderColor=none;fillStyle=solid;strokeWidth=0.5;fontSize=11;aspect=fixed;" vertex="1" parent="163">
+                    <mxGeometry x="20" y="10" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="Infrastructure as a code" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-InfrastructureasCode(IaC)" id="190">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;spacingLeft=50;fontSize=12;fontStyle=4;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-240" y="3520" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Terraform" id="699">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="190">
+                        <mxGeometry x="15" y="90" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="700" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;" vertex="1" parent="699">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="701" value="Terraform" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;" vertex="1" parent="700">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="702" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="700">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Ansible[tbd]" id="703">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="190">
+                        <mxGeometry x="15" y="111" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="704" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="703">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="705" value="Ansible" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="704">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="706" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="704">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-VMwareAriaautomation" id="707">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="190">
+                        <mxGeometry x="15" y="132" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="708" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="707">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="709" value="Aria Automation" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="708">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="710" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="708">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="925" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#330033;fillColor=#e1d5e7;shape=mxgraph.azure.code_file;pointerEvents=1;rounded=0;shadow=0;glass=0;labelBorderColor=none;fillStyle=solid;strokeWidth=0.5;fontSize=11;aspect=fixed;" vertex="1" parent="190">
+                    <mxGeometry x="20" y="10" width="47.5" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="Database" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Database" id="238">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;spacingLeft=50;fontStyle=4;fontSize=12;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-1440" y="3860" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-DBIaaSMSSQL" id="747">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="238">
+                        <mxGeometry x="15" y="90" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="748" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;" vertex="1" parent="747">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="749" value="DBIaaS MSSQL" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;" vertex="1" parent="748">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="750" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="748">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-DBIaaSPostgreSQL" id="751">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="238">
+                        <mxGeometry x="15" y="111" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="752" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="751">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="753" value="DBIaaS PostgresSQL" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="752">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="754" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="752">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-DBIaaSMySQL" id="755">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="238">
+                        <mxGeometry x="15" y="132" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="756" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="755">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="757" value="DBIaaS MySQL" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="756">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="758" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="756">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-DBIaaSMariaDB" id="759">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="238">
+                        <mxGeometry x="15" y="153" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="760" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="759">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="761" value="DBIaaS MariaDB" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="760">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="762" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="760">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-DBIaaSMongoDB" id="763">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="238">
+                        <mxGeometry x="15" y="174" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="764" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="763">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="765" value="DBIaaS MongoDB" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="764">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="766" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="764">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-DBIaaSOracleDB" id="767">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="238">
+                        <mxGeometry x="15" y="195" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="768" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="767">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="769" value="DBIaaS OracleDB" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="768">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="770" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="768">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-AWSRDS" id="771">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="238">
+                        <mxGeometry x="15" y="216" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="772" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="771">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="773" value="AWS RDS" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="772">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="774" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="772">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-DynamoDB" id="775">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;fontStyle=0;" vertex="1" parent="238">
+                        <mxGeometry x="15" y="258" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="776" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="775">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="777" value="Dynamo DB" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="776">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="778" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="776">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-AWSAurora" id="779">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="238">
+                        <mxGeometry x="15" y="237" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="780" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="779">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="781" value="AWS Aurora" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="780">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="782" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="780">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="926" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#330033;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;rounded=0;glass=0;labelBorderColor=none;fillStyle=solid;fontSize=11;fillColor=#e1d5e7;aspect=fixed;" vertex="1" parent="238">
+                    <mxGeometry x="20" y="10" width="42" height="50.88" as="geometry"/>
+                </mxCell>
+                <UserObject label="Secrets Management" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Secretsmanagement" id="268">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;spacingLeft=50;fontSize=12;fontStyle=4;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-1740" y="3860" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-GithubActionsSecrets" id="711">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="268">
+                        <mxGeometry x="15" y="90" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="712" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;" vertex="1" parent="711">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="713" value="Github Action Secrets" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;" vertex="1" parent="712">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="714" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="712">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-AWSSecretManager" id="715">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="268">
+                        <mxGeometry x="15" y="111" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="716" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="715">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="717" value="AWS Secret Manager" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="716">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="718" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="716">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-GoogleSecretManager" id="719">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="268">
+                        <mxGeometry x="15" y="132" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="720" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="719">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="721" value="Google Secret Manager" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="720">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="722" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="720">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-MicrosoftAzureKeyVault" id="723">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="268">
+                        <mxGeometry x="15" y="153" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="724" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="723">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="725" value="Azure Key Vault" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="724">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="726" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="724">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-KubernetesSecrets" id="727">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="268">
+                        <mxGeometry x="15" y="174" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="728" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="727">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="729" value="Kubernetes Secrets" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="728">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="730" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="728">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-TeliaPrivilegedAccessManagement" id="731">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="268">
+                        <mxGeometry x="15" y="195" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="732" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="731">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="733" value="Telia Privileged Access Management" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="732">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="734" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="732">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-HashiCorpVault" id="735">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="268">
+                        <mxGeometry x="15" y="216" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="736" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="735">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="737" value="Vault" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="736">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="738" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="736">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-KeyBase" id="739">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="268">
+                        <mxGeometry x="15" y="258" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="740" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="739">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="741" value="KeyBase" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="740">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="742" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="740">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-KeePass" id="743">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="268">
+                        <mxGeometry x="15" y="237" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="744" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="743">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="745" value="KeePass" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="744">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="746" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="744">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="910" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#e1d5e7;strokeColor=#330033;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=secret;rounded=0;shadow=0;glass=0;labelBorderColor=none;fillStyle=solid;strokeWidth=0.5;fontSize=11;aspect=fixed;" vertex="1" parent="268">
+                    <mxGeometry x="20" y="10" width="50" height="48" as="geometry"/>
+                </mxCell>
+                <UserObject label="Service Assurance" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-ServiceAssurance" id="298">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;spacingLeft=50;fontSize=12;fontStyle=4;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-240" y="3860" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-ChangeManagement" id="856">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="298">
+                        <mxGeometry x="15" y="90" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="857" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;" vertex="1" parent="856">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="858" value="Change Management" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;" vertex="1" parent="857">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="859" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="857">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Incidentmanagement" id="860">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="298">
+                        <mxGeometry x="15" y="111" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="861" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="860">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="862" value="Incident Management" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="861">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="863" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="861">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Problemmanagement" id="864">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="298">
+                        <mxGeometry x="15" y="132" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="865" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="864">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="866" value="Problem Management" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;strokeColor=#82b366;" vertex="1" parent="865">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="867" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="865">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="920" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#330033;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#e1d5e7;shape=mxgraph.mscae.oms.track_changes;rounded=0;glass=0;labelBorderColor=none;fillStyle=solid;strokeWidth=0.5;fontSize=11;spacingLeft=0;" vertex="1" parent="298">
+                    <mxGeometry x="20" y="10" width="42" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="Identity and Access Management" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-IdentityandAccessManagementSolutions" id="319">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;align=center;spacingLeft=68;labelBorderColor=none;fontSize=12;fontStyle=4;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-840" y="3860" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-WIAM" id="807">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="319">
+                        <mxGeometry x="15" y="90" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="808" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;" vertex="1" parent="807">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="809" value="WIAM" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;" vertex="1" parent="808">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="810" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="808">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-CIAM" id="811">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="319">
+                        <mxGeometry x="15" y="111" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="812" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="811">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="813" value="CIAM" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="812">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="814" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="812">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-PIAM" id="815">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="319">
+                        <mxGeometry x="15" y="132" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="816" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="815">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="817" value="PIAM" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="816">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="818" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="816">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-PAM" id="819">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="319">
+                        <mxGeometry x="15" y="153" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="820" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="819">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="821" value="PAM" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="820">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="822" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="820">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-DAC(Axiomatics)" id="823">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="319">
+                        <mxGeometry x="15" y="174" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="824" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="823">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="825" value="DAC (Axiomatics)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="824">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="826" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="824">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-SIDM" id="827">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="319">
+                        <mxGeometry x="15" y="195" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="828" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="827">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="829" value="SIDM" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="828">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="830" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="828">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="918" value="" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;gradientDirection=north;fillColor=#e1d5e7;strokeColor=#330033;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.identity_and_access_management;rounded=0;shadow=0;glass=0;labelBorderColor=none;fillStyle=solid;strokeWidth=0.5;" vertex="1" parent="319">
+                    <mxGeometry x="20" y="10" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="Storage" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Storage" id="340">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;spacingLeft=50;fontSize=12;fontStyle=4;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-1140" y="3860" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-BlockStorage" id="791">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="340">
+                        <mxGeometry x="15" y="90" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="792" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;" vertex="1" parent="791">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="793" value="Block Storage" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;" vertex="1" parent="792">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="794" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="792">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-FileStorage" id="795">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="340">
+                        <mxGeometry x="15" y="111" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="796" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="795">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="797" value="File Storage" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="796">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="798" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="796">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-ObjectStorage" id="799">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="340">
+                        <mxGeometry x="15" y="132" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="800" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="799">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="801" value="Object Storage" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="800">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="802" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="800">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-DataProtection" id="803">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="340">
+                        <mxGeometry x="15" y="153" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="804" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="803">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="805" value="Backup Service" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="804">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="806" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="804">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="917" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=#330033;fillColor=#e1d5e7;shape=mxgraph.azure.storage;pointerEvents=1;rounded=0;shadow=0;glass=0;labelBorderColor=none;fillStyle=solid;strokeWidth=0.5;fontSize=11;aspect=fixed;" vertex="1" parent="340">
+                    <mxGeometry x="20" y="20" width="50" height="40" as="geometry"/>
+                </mxCell>
+                <UserObject label="Local Development Environment" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-LocalDevelopmentEnvironment" id="355">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;swimlaneFillColor=none;spacingLeft=70;fontSize=12;fontStyle=4;labelBackgroundColor=none;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-1740" y="3520" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-LocalAdminRights" id="357">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;swimlaneFillColor=#FFFFFF;" vertex="1" parent="355">
+                        <mxGeometry x="15" y="90" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="358" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="357">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="359" value="Local Admin Rights" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;flipV=0;strokeColor=#FFFFFF;labelBorderColor=none;flipH=1;" vertex="1" parent="358">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="360" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="358">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-VisualStudioCode" id="433">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;swimlaneFillColor=#FFFFFF;" vertex="1" parent="355">
+                        <mxGeometry x="15" y="111" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="434" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="433">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="435" value="Visual Studio Code" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;flipV=0;strokeColor=#FFFFFF;labelBorderColor=none;" vertex="1" parent="434">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="436" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="434">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Terminaltools" id="437">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;swimlaneFillColor=#FFFFFF;" vertex="1" parent="355">
+                        <mxGeometry x="15" y="132" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="438" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;strokeColor=#FFFFFF;" vertex="1" parent="437">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="439" value="Terminal Tools" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;flipV=0;strokeColor=#FFFFFF;labelBorderColor=none;" vertex="1" parent="438">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="440" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="438">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="923" value="" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;gradientDirection=north;fillColor=#e1d5e7;strokeColor=#330033;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.tools_and_sdks;rounded=0;shadow=0;glass=0;labelBorderColor=none;fillStyle=solid;strokeWidth=0.5;" vertex="1" parent="355">
+                    <mxGeometry x="20" y="10" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="API Development" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-APIDevelopment" id="391">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;spacingLeft=50;fontSize=12;fontStyle=4;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-1740" y="4200" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-APIDeveloperJourneyandAPIGateway" id="393">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="391">
+                        <mxGeometry x="15" y="100" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="394" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;swimlaneLine=1;shadow=0;swimlaneFillColor=none;" vertex="1" parent="393">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="395" value="API Developer Journey and API Gateway" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;" vertex="1" parent="394">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="396" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="394">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="921" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#e1d5e7;strokeColor=#330033;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=api;rounded=0;shadow=0;glass=0;labelBorderColor=none;fillStyle=solid;strokeWidth=0.5;fontSize=11;" vertex="1" parent="391">
+                    <mxGeometry x="20" y="10" width="50" height="48" as="geometry"/>
+                </mxCell>
+                <UserObject label="Training Resources" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-TrainingResourcesandCommunitiesofPractice" id="406">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;spacingLeft=50;align=center;fontSize=12;fontStyle=4;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-540" y="4200" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-DevOpsCommunityofPractice[tbd]" id="880">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="406">
+                        <mxGeometry x="15" y="100" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="881" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="880">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="882" value="DevOps Community of Practice" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="881">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="883" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="881">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Trainingwebsite[tbd]" id="884">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="406">
+                        <mxGeometry x="15" y="142" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="885" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="884">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="886" value="Training website" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="885">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="887" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="885">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-TeliaTechAcademy" id="888">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="406">
+                        <mxGeometry x="15" y="121" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="889" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="888">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="890" value="Telia Tech Academy" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="889">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="891" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="889">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="922" value="" style="points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;gradientDirection=north;fillColor=#e1d5e7;strokeColor=#330033;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.training_certification;rounded=0;shadow=0;glass=0;labelBorderColor=none;fillStyle=solid;strokeWidth=0.5;" vertex="1" parent="406">
+                    <mxGeometry x="23" y="10" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="Event streaming &amp; Messaging" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Eventstreaming&amp;Messaging" id="927">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;spacingLeft=50;align=center;fontSize=12;fontStyle=4;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-1440" y="4200" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Kafka-EventStore" id="928">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="927">
+                        <mxGeometry x="15" y="100" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="929" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="928">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="930" value="Kafka" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="929">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="931" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="929">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-Artemis-ApacheActiveMQ" id="936">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="927">
+                        <mxGeometry x="15" y="121" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="937" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="936">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="938" value="Artemis - Apache ActiveMQ" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="937">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="939" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="937">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="941" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;gradientDirection=north;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;rounded=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="927">
+                    <mxGeometry x="21" y="10" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="Gen AI Capabilities" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-GenAICapabilities" id="942">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;spacingLeft=50;align=center;fontSize=12;fontStyle=4;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-1140" y="4200" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-GithubCopilot" id="943">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="942">
+                        <mxGeometry x="15" y="100" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="944" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="943">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="945" value="Github Copilot" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="944">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="946" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="944">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="951" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;gradientDirection=north;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;rounded=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="942">
+                    <mxGeometry x="21" y="10" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <UserObject label="Enterprise Architecture" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-EnterpriseArchitecture" id="952">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;spacingLeft=50;align=center;fontSize=12;fontStyle=4;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-840" y="4200" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" link="https://itwiki.atlassian.teliacompany.net/display/TOOLS/Engineering+Journey#EngineeringJourney-EnterpriseArchitecture.1" id="953">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="952">
+                        <mxGeometry x="15" y="100" width="240" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="954" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="953">
+                    <mxGeometry width="240" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="955" value="Enterprise Architecture" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="954">
+                    <mxGeometry width="240" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="956" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="954">
+                    <mxGeometry x="120" width="120" height="19" as="geometry">
+                        <mxRectangle width="120" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="958" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.blueprint;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=12;" vertex="1" parent="952">
+                    <mxGeometry x="25" y="13" width="50" height="47.5" as="geometry"/>
+                </mxCell>
+                <UserObject label="Legend" id="1007">
+                    <mxCell style="swimlane;startSize=70;strokeWidth=0.5;spacingLeft=0;align=center;fontSize=12;fontStyle=4;fontColor=#330033;fillColor=none;" vertex="1" parent="1">
+                        <mxGeometry x="-240" y="4200" width="270" height="310" as="geometry">
+                            <mxRectangle x="-310" y="3580" width="100" height="30" as="alternateBounds"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" id="1008">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=0.5;fontSize=11;" vertex="1" parent="1007">
+                        <mxGeometry x="15" y="100" width="20" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="1009" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="1008">
+                    <mxGeometry width="20" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="1010" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="1009">
+                    <mxGeometry width="20" height="19" as="geometry">
+                        <mxRectangle width="10" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="1011" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="1009">
+                    <mxGeometry x="10" width="10" height="19" as="geometry">
+                        <mxRectangle width="10" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="" id="1029">
+                    <mxCell style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=0;glass=0;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=0.5;fontSize=11;" vertex="1" parent="1007">
+                        <mxGeometry x="15" y="129" width="20" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="1030" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;glass=0;" vertex="1" parent="1029">
+                    <mxGeometry width="20" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="1031" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;rowspan=1;colspan=2;strokeWidth=0.5;fontSize=11;gradientColor=none;" vertex="1" parent="1030">
+                    <mxGeometry width="20" height="19" as="geometry">
+                        <mxRectangle width="10" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="1032" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;rounded=0;glass=0;" vertex="1" visible="0" parent="1030">
+                    <mxGeometry x="10" width="10" height="19" as="geometry">
+                        <mxRectangle width="10" height="19" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="1033" value="Available services" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=11;fontColor=none;" vertex="1" parent="1007">
+                    <mxGeometry x="45" y="100" width="220" height="19" as="geometry"/>
+                </mxCell>
+                <mxCell id="1034" value="Target architecture services" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontSize=11;fontColor=none;" vertex="1" parent="1007">
+                    <mxGeometry x="45" y="129" width="220" height="19" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

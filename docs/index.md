@@ -1,6 +1,6 @@
 # k8s-service-deployment
 ## Service deployment flow
-![Alt text](./images/onboarding.png)
+![Alt text](../images/onboarding.png)
 
 ----------
 

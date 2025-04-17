@@ -1,0 +1,32 @@
+replicaCount: 3
+global:
+  security:
+    allowInsecureImages: true
+image:
+  registry: devexp-docker-local.jfrog.teliacompany.io
+  repository: nginx-custom
+  tag: latest
+  pullPolicy: IfNotPresent
+  pullSecrets:
+    - artifactory-secret
+  debug: false
+service:
+  type: ClusterIP
+resources:
+  limits:
+    cpu: "250m"     
+    memory: "256Mi" 
+  requests:
+    cpu: "100m"     
+    memory: "128Mi" 
+
+extraVolumes:
+  - name: nginx-conf
+    configMap:
+      name: nginx-conf
+
+extraVolumeMounts:
+  - name: nginx-conf
+    mountPath: /opt/bitnami/nginx/conf/nginx.conf
+    subPath: nginx.conf
+    readOnly: true

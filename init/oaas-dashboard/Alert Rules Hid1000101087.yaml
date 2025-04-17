@@ -1,0 +1,70 @@
+apiVersion: 1
+groups:
+    - orgId: 1
+      name: Hid100010187-DevSecOps_Experimental_Platforms
+      folder: Hid100010187-DevSecOps Experimental Platforms#Main
+      interval: 1m
+      rules:
+        - uid: fehwfjycgrqpsb
+          title: Hid100010187-DevSecOps_Experimental_Platforms
+          condition: total_requests
+          data:
+            - refId: non_200_count
+              queryType: instant
+              relativeTimeRange:
+                from: 3600
+                to: 0
+              datasourceUid: cegazs5hhl4owa
+              model:
+                datasource:
+                    type: loki
+                    uid: cegazs5hhl4owa
+                editorMode: code
+                expr: |+
+                    max(count_over_time({k8s_deployment_name="nginx", nginx_status!="200"}[$__auto])) or vector(0)
+
+                instant: true
+                intervalMs: 1000
+                maxDataPoints: 43200
+                queryType: instant
+                refId: non_200_count
+            - refId: total_requests
+              datasourceUid: __expr__
+              model:
+                conditions:
+                    - evaluator:
+                        params:
+                            - 20
+                            - 0
+                        type: gt
+                      operator:
+                        type: and
+                      query:
+                        params: []
+                      reducer:
+                        params: []
+                        type: avg
+                      type: query
+                datasource:
+                    name: Expression
+                    type: __expr__
+                    uid: __expr__
+                expression: non_200_count
+                intervalMs: 1000
+                maxDataPoints: 43200
+                refId: total_requests
+                type: threshold
+          noDataState: NoData
+          execErrState: Error
+          for: 5m
+          annotations:
+            description: '"There were {{ $values.A }} non-200 responses in the last 5 minutes. Threshold: >6"'
+            summary: High error count for {{ .Labels }} in {{ $labels.environment }}
+          labels:
+            environment: dev
+            error_type: non-200
+            service: nginx
+            severity: critical
+          isPaused: false
+          notification_settings:
+            receiver: Hid100010187-DevSecOps_Experimental_Platforms-DEV

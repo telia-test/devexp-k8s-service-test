@@ -1,0 +1,189 @@
+name: Init k8s environment
+on:
+  workflow_dispatch:
+  # push:
+  #   branches: 
+  #     - 'main'
+  #   paths-ignore:
+  #     - '.github' 
+jobs: 
+    deploy:
+      runs-on: [self-hosted, linux]
+
+      env:
+        COMMON_BITNAMI_OCI_HELM_REPO: common-bitnami-helm-remote.jfrog.teliacompany.io
+        COMMON_OTEL_HELM_REPO: "https://jfrog.teliacompany.io/artifactory/api/helm/common-open-telemetry"
+        COMMON_PROMETHEUS_COMMUNITY_HELM_REPO: "https://jfrog.teliacompany.io/artifactory/api/helm/common-prometheus-community"
+        COMMON_DOCKERHUB_REPO: common-dockerhub-remote.jfrog.teliacompany.io
+        COMMON_GHCR_DOCKER_REPO: common-ghcr-docker-remote.jfrog.teliacompany.io
+        COMMON_K8S_GCR_DOCKER_REPO: common-k8s-gcr-docker-remote.jfrog.teliacompany.io
+        COMMON_QUAY_DOCKER_REPO: common-quay-docker-remote.jfrog.teliacompany.io
+        PROJECT_DOCKER_REPO: {{ projectDockerRepo }}
+
+        CERT_MANAGER_HELM_VERSION: "1.4.13"
+        INGRESS_NGINX_HELM_VERSION: "11.6.13"
+        OPEN_TELEMETRY_HELM_VERSION: "0.120.2"
+        KUBE_STATE_METRICS_HELM_VERSION: "5.0.5"
+        PROMETHEUS_NODE_EXPORTER_HELM_VERSION: "4.45.2"
+        
+        CERT_MANAGER_NAMESPACE: cert-manager
+        INGRESS_NGINX_NAMESPACE: ingress-nginx
+        OPENTELEMETRY_NAMESPACE: open-telemetry
+
+      steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - uses: sonarsource/sonarqube-scan-action@v3
+        env:
+          SONAR_TOKEN: {% raw %}${{ secrets.SONARQUBE_SCANNER }}{% endraw %}
+          SONAR_HOST_URL: https://sonarqube.teliacompany.net
+
+      - name: Set up kubectl
+        uses: azure/setup-kubectl@v3
+        with:
+          version: v1.27.0
+
+      - name: Set up Helm
+        uses: azure/setup-helm@v4.2.0
+
+      - name: Set K8s context
+        uses: azure/k8s-set-context@v4
+        with:
+          method: kubeconfig
+          kubeconfig: {% raw %}${{ secrets.KUBE }}{% endraw %}
+
+      - name: git describe
+        id: git_describe
+        run: echo "version=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+      
+      # Namespace Setup
+      - name: Ensure namespaces exist
+        run: |
+          for namespace in {% raw %}${{env.INGRESS_NGINX_NAMESPACE }} ${{env.OPENTELEMETRY_NAMESPACE }} ${{ env.CERT_MANAGER_NAMESPACE}}{% endraw %}; do
+            kubectl create namespace $namespace --dry-run=true -o yaml | kubectl apply -f -
+            kubectl label namespace $namespace pod-security.kubernetes.io/enforce=privileged --overwrite
+          done
+     
+      # Secrets Creation
+      - name: Create artifactory-secret Secret
+        run: |
+          for namespace in {% raw %}${{env.INGRESS_NGINX_NAMESPACE }} ${{ env.OPENTELEMETRY_NAMESPACE }} ${{ env.CERT_MANAGER_NAMESPACE}}{% endraw %}; do
+            kubectl create namespace $namespace --dry-run=true -o yaml | kubectl apply -f -
+            kubectl create secret generic artifactory-secret \
+              --from-literal=.dockerconfigjson='{
+                "auths": {
+                  "{% raw %}${{env.COMMON_DOCKERHUB_REPO }}{% endraw %}": {
+                    "username": "{% raw %}${{ secrets.ARTIFACTORY_READER_USERNAME }}{% endraw %}",
+                    "password": "{% raw %}${{ secrets.ARTIFACTORY_READER_PASSWORD }}{% endraw %}"
+                  },
+                  "{% raw %}${{env.PROJECT_DOCKER_REPO }}{% endraw %}": {
+                    "username": "{% raw %}${{ secrets.ARTIFACTORY_READER_USERNAME_P }}{% endraw %}",
+                    "password": "{% raw %}${{ secrets.ARTIFACTORY_READER_PASSWORD_P }}{% endraw %}"
+                  },
+                  "{% raw %}${{env.COMMON_GHCR_DOCKER_REPO }}{% endraw %}": {
+                    "username": "{% raw %}${{ secrets.ARTIFACTORY_READER_USERNAME }}{% endraw %}",
+                    "password": "{% raw %}${{ secrets.ARTIFACTORY_READER_PASSWORD }}{% endraw %}"
+                  },
+                  "{% raw %}${{env.COMMON_K8S_GCR_DOCKER_REPO }}{% endraw %}": {
+                    "username": "{% raw %}${{ secrets.ARTIFACTORY_READER_USERNAME }}{% endraw %}",
+                    "password": "{% raw %}${{ secrets.ARTIFACTORY_READER_PASSWORD }}{% endraw %}"
+                  },
+                  "{% raw %}${{env.COMMON_QUAY_DOCKER_REPO }}{% endraw %}": {
+                    "username": "{% raw %}${{ secrets.ARTIFACTORY_READER_USERNAME }}{% endraw %}",
+                    "password": "{% raw %}${{ secrets.ARTIFACTORY_READER_PASSWORD }}{% endraw %}"
+                  }
+                }
+              }' \
+              --type=kubernetes.io/dockerconfigjson \
+              --namespace $namespace \
+              --dry-run=true -o yaml | kubectl apply -f -
+          done
+
+      - name: Create cert-manager Kubernetes Secret
+        run: |
+          kubectl create secret generic telia-acme-key \
+            --from-literal=acme_hmac={% raw %}${{secrets.TELIA_ACME_KEY }}{% endraw %} \
+            --namespace {% raw %}${{ env.CERT_MANAGER_NAMESPACE }}{% endraw %} \
+            --dry-run=true -o yaml | kubectl apply -f -        
+
+      - name: Create daas-loki Secret
+        run: |
+          kubectl create secret generic daas-loki \
+            --from-literal=username={% raw %}${{ secrets.DAAS_LOKI_USERNAME }}{% endraw %} \
+            --from-literal=password={% raw %}${{ secrets.DAAS_LOKI_PASSWORD }}{% endraw %} \
+            --namespace {% raw %}${{env.OPENTELEMETRY_NAMESPACE }}{% endraw %} \
+            --dry-run=true -o yaml | kubectl apply -f -
+      
+      # Helm Repository Setup
+      - name: Authenticate to Helm OCI Registry
+        run: echo "{% raw %}${{ secrets.ARTIFACTORY_READER_PASSWORD }}{% endraw %}" | helm registry login "{% raw %}${{env.COMMON_BITNAMI_OCI_HELM_REPO }}{% endraw %}" -u "{% raw %}${{secrets.ARTIFACTORY_READER_USERNAME }}{% endraw %}" --password-stdin
+      
+      - name: Add open-telemetry Helm Repository
+        run: |
+          helm repo add open-telemetry "{% raw %}${{env.COMMON_OTEL_HELM_REPO }}{% endraw %}"  --username {% raw %}${{secrets.ARTIFACTORY_READER_USERNAME }}{% endraw %} --password {% raw %}${{secrets.ARTIFACTORY_READER_PASSWORD }}{% endraw %}
+          helm repo update        
+      
+      - name: Add prometheus-community Helm Repository
+        run: |
+          helm repo add open-telemetry "{% raw %}${{env.COMMON_OTEL_HELM_REPO }}{% endraw %}"  --username {% raw %}${{secrets.ARTIFACTORY_READER_USERNAME }}{% endraw %} --password {% raw %}${{secrets.ARTIFACTORY_READER_PASSWORD }}{% endraw %}
+          helm repo add prometheus-community {% raw %}${{env.COMMON_PROMETHEUS_COMMUNITY_HELM_REPO }}{% endraw %}  --username {% raw %}${{secrets.ARTIFACTORY_READER_USERNAME }}{% endraw %} --password {% raw %}${{secrets.ARTIFACTORY_READER_PASSWORD }}{% endraw %}
+          helm repo update 
+
+      # Deploy cert-manager
+      - name: Deploy cert-manager in Kubernetes
+        run: |
+          helm upgrade --install cert-manager "oci://{% raw %}${{env.COMMON_BITNAMI_OCI_HELM_REPO }}{% endraw %}/bitnamicharts/cert-manager" --version {% raw %}${{env.CERT_MANAGER_HELM_VERSION }}{% endraw %}  --wait -f ./init/cert-manager/values.yaml --namespace {% raw %}${{env.CERT_MANAGER_NAMESPACE }}{% endraw %} --create-namespace 
+  
+      - name: Deploy cert-manager-issuer in Kubernetes
+        run: |
+          kubectl rollout status deploy/cert-manager-webhook -n cert-manager --timeout=120s
+
+          echo "Applying cert-manager-issuer..."
+          for i in {1..10}; do
+            if kubectl apply -f ./init/cert-manager/cert-manager-issuer.yaml -n {% raw %}${{env.CERT_MANAGER_NAMESPACE }}{% endraw %}; then
+              echo "cert-manager-issuer applied successfully."
+              break
+            else
+              echo "Failed to apply cert-manager-issuer. Retrying in 10 seconds..."
+              sleep 10
+            fi
+
+            if [ $i -eq 10 ]; then
+              echo "Failed to apply cert-manager-issuer after 5 attempts."
+              exit 1
+            fi
+          done
+
+          kubectl patch clusterissuer telia-acme --type='json' \
+            -p="[{'op': 'replace', 'path': '/spec/acme/externalAccountBinding/keyID', 'value':{% raw %}${{secrets.TELIA_ACME_KEY_ID }}{% endraw %}}]" -n {% raw %}${{env.CERT_MANAGER_NAMESPACE }}{% endraw %}      
+      
+      # Deploy ingress-nginx
+      - name: Deploy ingress-nginx in Kubernetes
+        run: |
+          helm upgrade --install nginx-ingress "oci://{% raw %}${{env.COMMON_BITNAMI_OCI_HELM_REPO }}{% endraw %}/bitnamicharts/nginx-ingress-controller" --version {% raw %}${{env.INGRESS_NGINX_HELM_VERSION }}{% endraw %} --wait -f ./init/ingress-nginx/values.yaml --namespace {% raw %}${{env.INGRESS_NGINX_NAMESPACE }}{% endraw %} --create-namespace 
+      
+      # Deploy open-telemetry     
+      - name: Deploy otel in Kubernetes
+        run: |
+          helm upgrade --install otel open-telemetry/opentelemetry-collector --version "{% raw %}${{env.OPEN_TELEMETRY_HELM_VERSION }}{% endraw %}" --wait -f ./init/open-telemetry/values.yaml --namespace {% raw %}${{env.OPENTELEMETRY_NAMESPACE }}{% endraw %} 
+      
+      - name: Deploy prometheus-community in Kubernetes
+        run: |
+          helm upgrade --install prometheus-node-exporter prometheus-community/prometheus-node-exporter --version {% raw %}${{env.PROMETHEUS_NODE_EXPORTER_HELM_VERSION }}{% endraw %} --wait -f ./init/open-telemetry/prometheus/node-exporter/values.yaml --namespace {% raw %}${{env.OPENTELEMETRY_NAMESPACE }}{% endraw %} --create-namespace
+          
+      - name: Deploy kube-state-metrics in Kubernetes
+        run: |
+          helm upgrade --install kube-state-metrics "oci://{% raw %}${{env.COMMON_BITNAMI_OCI_HELM_REPO }}{% endraw %}/bitnamicharts/kube-state-metrics" --version {% raw %}${{env.KUBE_STATE_METRICS_HELM_VERSION }}{% endraw %} --wait -f ./init/open-telemetry/kube-state-metrics/values.yaml --namespace {% raw %}${{env.OPENTELEMETRY_NAMESPACE }}{% endraw %} --create-namespace 
+        
+
+
+
+
+
+      
+      
+     
+  

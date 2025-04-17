@@ -1,0 +1,21 @@
+# Default values for kube-state-metrics.
+prometheusScrape: true
+image:
+  registry: common-dockerhub-remote.jfrog.teliacompany.io
+  repository: bitnami/kube-state-metrics
+  # If unset use v + .Charts.appVersion
+  tag: "latest"
+  sha: ""
+  pullPolicy: IfNotPresent
+
+imagePullSecrets: 
+  - name: "artifactory-secret"
+
+global:
+  imagePullSecrets:
+    - artifactory-secret
+  security:
+    allowInsecureImages: true
+
+replicas: 3
+

@@ -1,0 +1,17 @@
+
+global:
+  imageRegistry: "common-quay-docker-remote.jfrog.teliacompany.io"
+  imagePullSecrets:
+    - artifactory-secret
+  security:
+    allowInsecureImages: true
+image:
+  registry: common-quay-docker-remote.jfrog.teliacompany.io
+  repository: prometheus/node-exporter
+  tag: ""
+  digest: ""
+  pullPolicy: IfNotPresent
+  pullSecrets:
+    - artifactory-secret
+replicaCount: 3
+hostNetwork: false

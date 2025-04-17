@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: app-{{ appName }}-ingress
+  annotations:
+    cert-manager.io/cluster-issuer: telia-acme
+spec:
+  ingressClassName: nginx
+  tls:
+  - hosts:
+      - {{ hostName }}
+    secretName: {{ appName }}-secure
+  rules:
+  - host: {{ hostName }}
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: {{ appName }}
+            port:
+              number: 80
